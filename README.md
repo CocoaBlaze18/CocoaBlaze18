@@ -1,1 +1,1 @@
-# CocoaBlaze18 project WebT-1320
+# CocoaBlaze18 project page
