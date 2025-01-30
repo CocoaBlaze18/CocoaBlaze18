@@ -1,17 +1,15 @@
 <DOCTYPE html>
         <html>
-            <head
+            <head>
             <title>Lion King</title>
 
             <style> 
-                body  
-                bakground-color: 
-                color: baby blue;
-                image
-                display: block;
+                body{  
+                background-color: hsl(240, 100%, 50%);}
+                
+                img{<display> block;
                 width: 600px;
-                height: 20pxauto;
-                margin-left: center;
+                height: 20pxauto;}
 
             </style>
             </head> 
