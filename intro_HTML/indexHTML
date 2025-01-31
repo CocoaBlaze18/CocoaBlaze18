@@ -5,11 +5,14 @@
 
             <style> 
                 body{  
-                background-color: hsl(240, 100%, 50%);}
+                background-color: hsl(240, 100%, 50%);
+            }
                 
-                img{<display> block;
+                img{
+                <display> block;
                 width: 600px;
-                height: 20pxauto;}
+                height: 20pxauto;
+            }
 
             </style>
             </head> 
