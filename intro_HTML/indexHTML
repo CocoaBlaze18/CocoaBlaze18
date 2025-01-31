@@ -11,7 +11,7 @@
                 img{
                 <display> block;
                 width: 600px;
-                height: 20pxauto;
+                height: 20px auto;
             }
 
             </style>
