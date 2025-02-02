@@ -12,6 +12,18 @@ body {background-color: blueviolet;}
         #banner {
             width: 100%;
         }
+        #col1 {
+            width: 50%;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px; ;
+        }
+        #col2 {
+            width: 50%;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
 
         .heading_styles {
             text-shadow: 2px 2px 2px rgb(160, 58, 114);
@@ -60,7 +72,13 @@ body {background-color: blueviolet;}
                 background-color: lightcyan;
                 color: black;  
             }
+            main {
+                display: flex;
+            }
 
-            h1,h2,h3,footer{
+            h1,
+            h2,
+            h3,
+            footer {
                 text-align: center;
             }
