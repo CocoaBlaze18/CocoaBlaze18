@@ -1,11 +1,27 @@
 body {background-color: blueviolet;}
 
-#container {background-color: white;
+#container {
+            background-color: white;
             width:1200px;
             margin: 20px auto;
             padding: 20px;
             border: 2px solid black;
+            border-radius:10px;
         }
+
+        #banner {
+            width: 100%;
+        }
+
+        .heading_styles {
+            text-shadow: 2px 2px 2px rgb(160, 58, 114);
+            text-align: center;
+            font-size: 24px;
+            color: black;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
         img {
             
             display: block;
@@ -14,17 +30,37 @@ body {background-color: blueviolet;}
             }
          nav { text-align: center;
             margin: 20px 0;
+            background-color: lightcoral;
+            padding: 0;
             }
-            nav a {
+            
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            nav li {
+                display: inline-block;
+                margin: 0 20px;
+            }
+
+            nav li a {
+                display: block;
                 font-size: 24px;
                 color: black;
-                margin: 0 20px;
                 font-weight: bold;
-                
+                text-decoration: none;
+                margin: 0 20px;
+                width: 100px;
+                height: 50px;
+                line-height: 50px;
             }
+
             nav a:hover {
-               text-decoration: none;
+                background-color: lightcyan;
+                color: black;  
             }
+
             h1,h2,h3,footer{
                 text-align: center;
             }
