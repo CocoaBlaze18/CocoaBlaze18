@@ -37,7 +37,7 @@ body {background-color: blueviolet;}
         img {
             
             display: block;
-            width: 100px;
+            width: 100%;
             margin: 0 auto;
             }
          nav { text-align: center;
@@ -72,9 +72,7 @@ body {background-color: blueviolet;}
                 background-color: lightcyan;
                 color: black;  
             }
-            main {
-                display: flex;
-            }
+            
 
             h1,
             h2,
