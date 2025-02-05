@@ -34,10 +34,9 @@ body {background-color: blueviolet;}
             margin: 20px 0;
         }
 
-        img {
-            
+        img {            
             display: block;
-            width: 100%;
+            width: 50%;
             margin: 0 auto;
             }
          nav { text-align: center;
