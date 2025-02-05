@@ -76,6 +76,7 @@ body {background-color: blueviolet;}
                display: flex;
             }
             section, aside {
+                flex: 1;
                 border: 2px solid black;
                 padding: 20px;
                 margin: 20px;
@@ -90,6 +91,10 @@ body {background-color: blueviolet;}
                 width: 50%;
             }
 
+            #bottom img{
+             width: 50%; 
+            }
+            
             h1,
             h2,
             h3,
