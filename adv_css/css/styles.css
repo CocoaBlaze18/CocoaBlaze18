@@ -99,8 +99,7 @@ body {background-color: blueviolet;}
              width: 25%; 
             }
 
-            .col_holder
-            {
+            .col_holder{
                 display: flex;              
             }
 
@@ -109,8 +108,7 @@ body {background-color: blueviolet;}
                 border: 2px solid black;
                 padding: 20px;
                 margin: 20px;
-                border-radius: 10px;
-                
+                border-radius: 10px;                
             }
             
             h1,
