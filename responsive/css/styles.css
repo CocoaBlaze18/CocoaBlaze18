@@ -1,0 +1,131 @@
+/* Global Styles */
+
+body {
+    background-color: #754064;
+}
+
+img {
+    display: block;
+    margin:auto;
+    width: 100%;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #E9A3CD;
+}
+
+/* Mobile Styles"/
+@media (max-width: 320px) {
+    nav {
+        background-color: #FFCDA3;
+        padding: 10px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        }
+        nav li {
+            display: block;
+        }
+        nav li a {
+             display: block;
+             height: 30px;
+             line-height: 30px;
+            background-color: white;
+            color: #754064;
+            font-size: 1.2em;
+            text-decoration: none;
+            margin-top: 5px;
+        }  
+        nav li a:hover {
+            background-color: #754064;
+        }  
+            main {
+                padding: 10px;
+        }
+                h1, h2, h3 {
+                text-align: center;
+                color: #754064;
+                text-shadow: 1px 1px 1px #000;
+        }
+                footer {
+                text-align: center;
+                padding: 10px;
+
+}
+    /* Tablet Styles */
+    @media (min-width: 321px) and (max-width: 768px) {
+        nav li {
+            display: inline-block;
+        }
+        nav li a{
+            width: 125px;
+            height: 30px;
+            line-height: 30px;
+            margin: 5px;
+        }
+        .movie_post{
+            width: 50%;
+            border: radius 10px; ;
+            box-shadow: 3px 3px 3px #754064;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #754064;
+            text-shadow: 1px 1px 1px #000;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    /* Desktop Styles */
+    @media (min-width: 1024) {
+        #container {
+            width: 65%;
+            margin: 20 auto;
+            border: 4px solid #0c0209;
+            border-radius: 20px;
+        }
+
+        nav {  
+            padding: 10px;
+            margin-top: 5px;
+        }  
+         
+        nav li a {
+            background-color: rgb(17, 13, 13);
+        }
+
+        hr {
+           display: none;
+        }
+
+        #multi_col{
+            display: flex;
+        }
+        .col{
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #c9b9c4;
+        }
+        nav li a:hover {
+            background-color: #754064;
+        }
+        main {
+            padding: 10px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #754064;
+            text-shadow: 1px 1px 1px #000;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+    }
