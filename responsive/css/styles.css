@@ -1,20 +1,14 @@
 /* Global Styles */
 
-body {
-    background-color: #754064;
+body {   
+    background-color: #f0f0f0;
+    color: #333;   
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     display: block;
-    margin: 0 auto;    
-    width: 75px;;
-}
-
-#container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    background-color: #E9A3CD;
 }
 
 /* Mobile Styles"/
