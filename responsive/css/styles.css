@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {   
-    background-color: #f0f0f0;
+    background-color: #d0a0d6;
     color: #333;   
 }
 
@@ -12,6 +12,12 @@ img {
     margin: 0 auto;
 }
 
+#container {
+    width: 90%;
+    margin: 20px auto;
+    border: 4px solid #87bcc9;
+    border-radius: 20px;
+}
 /* Mobile Styles"/
 @media (min-width: 320px) {
     nav {
