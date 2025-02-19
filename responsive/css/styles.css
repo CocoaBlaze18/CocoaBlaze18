@@ -5,9 +5,9 @@ body {
 }
 
 img {
-    display: inline-block;
-    margin:0 auto;
-    width: 100%;
+    display: block;
+    margin: 0 auto;    
+    width: 75px;;
 }
 
 #container {
@@ -20,7 +20,7 @@ img {
 /* Mobile Styles"/
 @media (min-width: 320px) {
     nav {
-        background-color: #FFCDA3;
+        background-color:  #754064;
         padding: 5px;
         margin-top: 10px;
         text-align: center;
