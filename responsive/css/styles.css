@@ -106,7 +106,7 @@ img {
         }  
          
         nav li a {
-            background-color: rgb(201, 189, 19);
+            background-color: white;
         }
 
         hr {
@@ -123,7 +123,7 @@ img {
             border: 2px solid #080808;
         }
         nav li a:hover {
-            background-color: #754064;
+            background-color: #6be0db;
         }
         main {
             padding: 10px;
